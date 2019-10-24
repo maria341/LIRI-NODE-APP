@@ -14,10 +14,12 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 * OMDB (Open Movie Database) API
 * Request Node Package
 * Node-Spotify-API Node package
- 
+
+# Here's some of my screenshots for referrence for command line
+
 # COMMAND LINE
 
-`node liri.js concert-this <artist/band name here>`
+* `node liri.js concert-this <artist/band name here>`
 
 * This will search the Bands in Town Artist Events API , for an artist and render the following information about each event to the terminal:
 
@@ -27,11 +29,9 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
      * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-# Here's some of my screenshots for referrence for command line
-
 ![](https://github.com/maria341/liri-node-app/blob/master/readme.images/concert-this.png)
 
-`node liri.js spotify-this-song '<song name here>'`
+* `node liri.js spotify-this-song '<song name here>'`
 
 * This will show the following information about the song in your terminal/bash window
 
@@ -47,7 +47,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ![](https://github.com/maria341/liri-node-app/blob/master/readme.images/spotify.png)
 
-`node liri.js movie-this '<movie name here>'`
+* `node liri.js movie-this '<movie name here>'`
 
    * This will output the following information to your terminal/bash window:
 
