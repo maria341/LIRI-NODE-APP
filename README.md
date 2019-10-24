@@ -45,5 +45,5 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
    * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
-![]()
+![](https://github.com/maria341/liri-node-app/blob/master/readme.images/spotify.png)
 
