@@ -17,7 +17,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
  
 # COMMAND LINE
 
-`concert-this`
+`node liri.js concert-this <artist/band name here>`
 
 * This will search the Bands in Town Artist Events API , for an artist and render the following information about each event to the terminal:
 
@@ -31,7 +31,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ![](https://github.com/maria341/liri-node-app/blob/master/readme.images/concert-this.png)
 
-`Spotify-this-song`
+`node liri.js spotify-this-song '<song name here>'`
 
 * This will show the following information about the song in your terminal/bash window
 
@@ -46,4 +46,22 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
    * If no song is provided then your program will default to "The Sign" by Ace of Base.
 
 ![](https://github.com/maria341/liri-node-app/blob/master/readme.images/spotify.png)
+
+`node liri.js movie-this '<movie name here>'`
+
+   * This will output the following information to your terminal/bash window:
+
+     ```
+       * Title of the movie.
+       * Year the movie came out.
+       * IMDB Rating of the movie.
+       * Rotten Tomatoes Rating of the movie.
+       * Country where the movie was produced.
+       * Language of the movie.
+       * Plot of the movie.
+       * Actors in the movie.
+     ```
+
+   * If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+
 
