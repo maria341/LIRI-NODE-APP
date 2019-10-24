@@ -27,8 +27,23 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
      * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-# Here's some of my screenshot for referrence for command line
+# Here's some of my screenshots for referrence for command line
 
 ![](https://github.com/maria341/liri-node-app/blob/master/readme.images/concert-this.png)
 
+`Spotify-this-song`
+
+* This will show the following information about the song in your terminal/bash window
+
+     * Artist(s)
+
+     * The song's name
+
+     * A preview link of the song from Spotify
+
+     * The album that the song is from
+
+   * If no song is provided then your program will default to "The Sign" by Ace of Base.
+
+![]()
 
