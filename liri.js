@@ -42,7 +42,7 @@ function spotifyThisSong(song) {
                 console.log("Artist: " + response.tracks.items[0].artists[0].name);
                 console.log("Track: " + response.tracks.items[0].name);
                 console.log("Preview URL: " + response.tracks.items[0].preview_url);
-                console.log("Album: " + response.tracks.items[0].album.album);
+                console.log("Album: " + response.tracks.items[0].album.name);
             }
         })
         .catch(function (error) {
@@ -81,7 +81,7 @@ function movieThis(movie) {
                 console.log("Title: " + response.data.Title);
                 console.log("Year: " + response.data.Year);
                 console.log("imdbRating: " + response.data.imdbRating);
-                console.log("Rotten Tomatoes Rating: " + response.data.rottenTomatoesRating);
+                console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
                 console.log("Country: " + response.data.Country);
                 console.log("Language: " + response.data.Language);
                 console.log("Plot: " + response.data.Plot);
@@ -134,4 +134,4 @@ switch (command) {
     case "do-what-it-says":
         doWhatItSays(searchTerm);
         break;
-}
+};
