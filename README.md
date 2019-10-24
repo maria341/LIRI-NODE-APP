@@ -15,7 +15,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 * Request Node Package
 * Node-Spotify-API Node package
 
-# Here's some of my screenshots for referrence for command line
+# Here's some of my screenshots that referrence for command line
 
 # COMMAND LINE
 
