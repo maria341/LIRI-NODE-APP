@@ -28,7 +28,8 @@ function searchThis(artist) {
             }
         }
     )
-        .catch(function (error) {
+       //It will catch the error response 
+         .catch(function (error) {
             console.log(error);
         });
 }
@@ -42,6 +43,7 @@ function spotifyThis(song) {
                 errorConditionForSpotify();
             }
             else {
+                //It will console.log the response that back like the artist, track, preview_URL and album.
                 console.log("Artist: " + response.tracks.items[0].artists[0].name);
                 console.log("Track: " + response.tracks.items[0].name);
                 console.log("Preview URL: " + response.tracks.items[0].preview_url);
